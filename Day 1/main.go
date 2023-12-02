@@ -10,7 +10,6 @@ import (
 )
 
 func calculateLineSum(answer *int, line string) error {
-
 	var start, end int = 0, len(line)
 	var first, last rune
 
