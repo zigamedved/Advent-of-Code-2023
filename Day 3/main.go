@@ -10,7 +10,6 @@ import (
 
 func getNeighbors(mp [][]rune, start, finish, rowIndex int) []rune { // get's neighbors
 	var result []rune
-
 	var lookAbove, lookBelow bool
 
 	if rowIndex > 0 {
@@ -93,8 +92,8 @@ func main() {
 		fmt.Println("Error:", err)
 		return
 	}
-	answer := 0
 
+	answer := 0
 	for rowIndex, row := range matrix {
 		var number string
 		var start, end int = -1, -1
